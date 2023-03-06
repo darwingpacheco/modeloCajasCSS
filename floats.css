@@ -11,22 +11,21 @@
 
 .wrapper {
     background: green;
+    flex-direction: row;
+    display: flex;
 }
 
 .menu {
     background: silver;
     width: 30%;
-    float: left;
     
 }
 
 .content {
     background-color: yellow;
     width: 70%;
-    float: left;
 }
 
 .footer {
-    background: blue;
-    clear: both;
+    background: rgb(17, 109, 214);
 }
